@@ -1,0 +1,58 @@
+body, p, h1 {
+    font-family: Trebuchet MS, arial, verdana, sans-serif;
+}
+.immortality {
+  margin: 1em;
+}
+.keys {
+  width: 11em;
+  text-align: center;
+}
+.keys i {
+  background-color: orange;
+}
+.board {
+  width: 32em;
+  height: 24em;
+  border: 1em solid gray;
+  position: relative;
+  overflow: hidden;
+}
+.roofleft {
+  position: absolute;
+  width: 16em;
+  top: 18em;
+  height: 1em;
+  background-color: black;
+}
+.roofright {
+  position: absolute;
+  width: 12em;
+  height: 1em;
+  left: 20em;
+  top: 18em;
+  background-color: black;
+}
+.ghost {
+  position: absolute;
+  width: 2em;
+  left: 8em;
+  top: 12em;
+  height: 6em;
+  background-color: black;
+}
+.leftmark {
+  position: absolute;
+  visibility: hidden;
+  left: 16em;
+}
+.rightmark {
+  position: absolute;
+  visibility: hidden;
+  left: 18em;
+}
+.endmark {
+  position: absolute;
+  visibility: hidden;
+  left: 32em;
+}
